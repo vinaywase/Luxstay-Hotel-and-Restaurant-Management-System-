@@ -1,0 +1,19 @@
+{
+  "name": "hotel-and-restaurant-project-root",
+  "version": "1.0.0",
+  "description": "Root package to forward commands to frontend",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "install:all": "npm --prefix frontend install"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.12",
+    "tailwindcss": "^4.2.4"
+  }
+}
