@@ -212,10 +212,6 @@ The application uses:
 * Cloud Deployment
 
 
-# Screenshots
-
-
-
 
 # Author
 Vinay Arvind Wase
