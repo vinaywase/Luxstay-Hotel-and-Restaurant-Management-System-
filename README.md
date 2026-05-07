@@ -6,12 +6,12 @@ The **Hotel and Restaurant Management System** is a full-stack web application d
 
 This project is built using:
 
-* **Frontend:** React + Vite + Tailwind CSS
+* **Frontend:** React.js + Vite + Tailwind CSS
 * **Backend:** Spring Boot (Java)
 * **Database:** MySQL
 * **Authentication:** JWT + Spring Security
 
----
+
 
 # Features
 
@@ -46,11 +46,10 @@ This project is built using:
 * Manage Assigned Events
 * Track Orders & Reservations
 
----
+
 
 # Project Structure
-
-```bash
+bash
 Hotel and Restaurant project/
 │
 ├── frontend/                 # React Frontend
@@ -64,14 +63,15 @@ Hotel and Restaurant project/
 │   └── pom.xml
 │
 └── package.json
-```
 
----
+
+
 
 # Technologies Used
 
 ## Frontend
 
+* React.js
 * React 19
 * Vite
 * React Router DOM
@@ -93,7 +93,7 @@ Hotel and Restaurant project/
 
 * MySQL
 
----
+
 
 # Installation & Setup
 
@@ -101,29 +101,27 @@ Hotel and Restaurant project/
 
 Make sure the following are installed on your system:
 
-* Node.js
+* React.js Environment
 * npm
 * Java 17+
 * Maven
 * MySQL
 
----
+
 
 # Frontend Setup
 
-```bash
+bash
 cd frontend
 npm install
 npm run dev
-```
+
 
 Frontend runs on:
 
-```bash
+bash
 http://localhost:5173
-```
 
----
 
 # Backend Setup
 
@@ -131,32 +129,30 @@ http://localhost:5173
 
 Update your MySQL credentials inside:
 
-```bash
+bash
 backend/src/main/resources/application.properties
-```
+
 
 Example:
 
-```properties
+properties
 spring.datasource.url=jdbc:mysql://localhost:3306/hotel_management
 spring.datasource.username=root
 spring.datasource.password=your_password
-```
+
 
 ## Run Backend
 
-```bash
+bash
 cd backend
 mvn spring-boot:run
-```
+
 
 Backend runs on:
 
-```bash
+bash
 http://localhost:8080
-```
 
----
 
 # API Features
 
@@ -167,8 +163,6 @@ http://localhost:8080
 * Order Management APIs
 * Billing APIs
 * Event Booking APIs
-
----
 
 # Available Pages
 
@@ -197,7 +191,7 @@ http://localhost:8080
 * Staff Event Dashboard
 * Staff Service Requests
 
----
+
 
 # Security
 
@@ -207,7 +201,6 @@ The application uses:
 * JWT Token Authentication
 * Role-Based Access Control
 
----
 
 # Future Improvements
 
@@ -218,25 +211,15 @@ The application uses:
 * Multi-language Support
 * Cloud Deployment
 
----
 
 # Screenshots
 
-Add screenshots of your application here.
 
-Example:
 
-```md
-![Dashboard Screenshot](screenshots/dashboard.png)
-```
-
----
 
 # Author
+Vinay Arvind Wase
 
-**Your Name**
-
----
 
 # License
 
